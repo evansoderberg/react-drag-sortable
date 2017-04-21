@@ -151,7 +151,7 @@ class DragSortableList extends React.Component {
     })
 
     return (
-      <div id={this.ref} className="List" ref={this.ref}>
+      <div stlye={this.props.containerStyle} id={this.ref} className="List" ref={this.ref}>
         {itemsNodes}
       </div>
     )
